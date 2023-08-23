@@ -31,5 +31,6 @@ public class TrabajoFinal {
         } else {
             System.out.println("respuesta no valida");
         }
+        scanner.close();
     }
 }
