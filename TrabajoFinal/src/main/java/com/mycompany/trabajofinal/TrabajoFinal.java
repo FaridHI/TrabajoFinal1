@@ -26,6 +26,10 @@ public class TrabajoFinal {
             } else {
                 System.out.println("No es una opcion válida");
             }
+        } else if (respuestajugar.equalsIgnoreCase("no")){
+            System.out.println("Bueno, podemos jugar luego");
+        } else {
+            System.out.println("respuesta no valida");
         }
     }
 }
