@@ -18,6 +18,14 @@ public class TrabajoFinal {
         if (respuestajugar.equalsIgnoreCase("si")){
             System.out.println("¿Quieres jugar futbol o basketbol?");
             String respuestajuego = scanner.nextLine();
+            
+            if (respuestajuego.equalsIgnoreCase("futbol")){
+                System.out.println("Vamos a jugar futbol");
+            } else if (respuestajuego.equalsIgnoreCase("basketbol")){
+                System.out.println("Vamos a juagr basketbol");
+            } else {
+                System.out.println("No es una opcion válida");
+            }
         }
     }
 }
