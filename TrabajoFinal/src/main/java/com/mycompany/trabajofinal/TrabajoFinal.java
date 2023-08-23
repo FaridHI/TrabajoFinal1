@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.trabajofinal;
-
+import java.util.Scanner;
 /**
  *
  * @author Admin
