@@ -12,5 +12,7 @@ public class TrabajoFinal {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner (System.in);
+        System.out.println("¿Quieres jugar? (si/no)");
+        String respuestajugar = scanner.nextLine();
     }
 }
