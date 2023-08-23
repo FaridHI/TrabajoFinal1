@@ -14,5 +14,10 @@ public class TrabajoFinal {
         Scanner scanner = new Scanner (System.in);
         System.out.println("¿Quieres jugar? (si/no)");
         String respuestajugar = scanner.nextLine();
+        
+        if (respuestajugar.equalsIgnoreCase("si")){
+            System.out.println("¿Quieres jugar futbol o basketbol?");
+            String respuestajuego = scanner.nextLine();
+        }
     }
 }
